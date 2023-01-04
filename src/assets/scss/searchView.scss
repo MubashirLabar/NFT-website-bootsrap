@@ -1,0 +1,39 @@
+.search-view {
+  .hdr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .lef {
+      flex: 1;
+      .tital {
+        font-size: 22px;
+        font-weight: 600;
+      }
+    }
+    .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .dropdown-toggle {
+        background-color: $gray-200;
+        border-color: $gray-200;
+        .selected,
+        .ico {
+          color: $white;
+        }
+      }
+    }
+  }
+  .products-wrapper {
+    padding-top: 16px;
+  }
+}
+
+.pagination-bottom-page {
+  margin-top: 32px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
